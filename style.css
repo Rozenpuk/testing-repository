@@ -1,0 +1,64 @@
+.everything {
+  background: #f5f4f9;
+  border-radius: 10px;
+  width: 300px;
+  margin: 40px 20px;
+  padding: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: #b7c2d6;
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+.checkout-head {
+  width: 305px;
+  padding: 1px;
+  border: 2px;
+  /* box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.5); */
+}
+
+.checkout-head img {
+  float: left;
+  padding: 0 5px;
+}
+
+.inputs input {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 6px;
+  border: 1px solid #b6b6c0;
+  box-shadow: inset 0 2px 5px -2px rgba(0, 0, 0, 0.5);
+}
+
+.inputs .card-number {
+  width: 225px;
+  background-image: url("C:\Repo\checkout\visa.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-right: 40px;
+}
+
+.small-input {
+  width: 50px;
+  text-align: center;
+}
+
+.name {
+  width: 160px;
+}
+
+.inputs .button {
+  color: #eee;
+  width: 290;
+  background: #008fff;
+  font-weight: bold;
+  padding: 10px;
+  box-shadow: none;
+}
+
+.inputs {
+  border-top: 2px solid black;
+}
