@@ -8,3 +8,7 @@ function validate(evt) {
     if(theEvent.preventDefault) theEvent.preventDefault();
   }
 }
+
+function message() {
+  alert("Thank you!")
+}

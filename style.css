@@ -1,3 +1,7 @@
+* {
+  font-size: 14px;
+}
+
 .everything {
   background: #f5f4f9;
   border-radius: 10px;
@@ -5,6 +9,7 @@
   margin: 40px 20px;
   padding: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
 }
 
 h1 {
@@ -15,7 +20,6 @@ h1 {
 
 .checkout-head {
   width: 305px;
-  padding: 1px;
   border: 2px;
   /* box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.5); */
 }
@@ -29,17 +33,17 @@ h1 {
 
 .inputs input {
   border-radius: 5px;
+  height: 35px;
   margin: 5px;
   padding: 6px;
   border: 1px solid #b6b6c0;
-  box-shadow: inset 0 2px 5px -2px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 0 2px 5px -2px rgba(0, 0, 0, 0.4);
 }
 
 .inputs .card-number {
   width: 225px;
-  background-image: url("C:\Repo\checkout\visa.png");
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
+  background: white url("checkout/visa.png") 95% 50% no-repeat;
+  padding-right: 20px;
   padding-right: 40px;
 }
 
@@ -47,10 +51,6 @@ h1 {
   width: 50px;
   padding: 5px;
   text-align: center;
-}
-
-.card-number {
-  width: 215px;
 }
 
 .name {
@@ -67,13 +67,22 @@ h1 {
 }
 
 .inputs {
-  border-top: 2px solid black;
+  position: relative;
+  padding: 5px 0 0 5px;
+  right: 5px;
+  width: 305px;
+  box-shadow: inset 0 2px 5px -2px rgba(0, 0, 0, 0.5);
 }
 
-.button {
-  color: white;
-  width: 290;
-  background: #008fff;
-  font-weight: bold;
-  padding: 5px 0;
+input:focus {
+  outline: none;
+  color: #72b5ff;
+  border:1px solid rgb(143,177,215);
+  box-shadow: 0 0 10px rgb(143,177,215);
+}
+
+#price {
+  position: absolute;
+  left: 265px;
+  bottom: 150px;
 }

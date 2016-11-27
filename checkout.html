@@ -7,17 +7,18 @@
     <body>
       <div class="everything">
         <div class="checkout-head">
-          <h1><img src="C:\Repo\checkout\card.png" align: "left"> Checkout</h1>
+          <img id="price" src="checkout\price.png">
+          <h1><img src="checkout\card.png" align: "left"> Checkout</h1>
         </div>
         <div class="inputs">
           <input class="name" type="text" placeholder="Name">
-          <input class="small-input" type="text" placeholder="MM" onkeypress='validate(event)'>
-          <input class="small-input" type="text" placeholder="YY" onkeypress='validate(event)'><br>
-          <input class="card-number" type="text" placeholder="4213 1220 0229 3249" onkeypress='validate(event)'>
-          <input class="small-input" type="text" placeholder="CVC" onkeypress='validate(event)'><br>
-          <input class="button" type="submit" value="PURCHASE">
+          <input class="small-input" type="text" placeholder="MM" onkeypress='validate(event)' maxlength="2">
+          <input class="small-input" type="text" placeholder="YY" onkeypress='validate(event)' maxlength="2"><br>
+          <input class="card-number" type="text" placeholder="4213 1220 0229 3249" onkeypress='validate(event)' maxlength="16">
+          <input class="small-input" type="text" placeholder="CVC" onkeypress='validate(event)' maxlength="3"><br>
+          <input class="button" type="submit" value="PURCHASE" onclick='message()'>
         </div>
       </div>
-      <script src="C:\Repo\checkout-script.js"></script>
+      <script src="checkout-script.js"></script>
     </body>
   </html>
