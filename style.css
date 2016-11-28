@@ -19,14 +19,24 @@ h1 {
 }
 
 .checkout-head {
-  width: 305px;
-  border: 2px;
-  /* box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.5); */
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: relative;
+  background: #fbfeff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fbfeff 0%, #f5f6fb 31%, #e8ecf7 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #fbfeff 0%,#f5f6fb 31%,#e8ecf7 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #fbfeff 0%,#f5f6fb 31%,#e8ecf7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfeff', endColorstr='#e8ecf7',GradientType=0 ); /* IE6-9 */
+  right: 5px;
+  bottom: 5px;
+  width: 310px;
+  height: 45px;
+  padding-top: 10px;
 }
 
 .checkout-head img {
   float: left;
-  padding: 0 5px;
+  padding: 0 10px;
   font-family: Arial;
   font-size: 20px;
 }
@@ -37,7 +47,7 @@ h1 {
   margin: 5px;
   padding: 6px;
   border: 1px solid #b6b6c0;
-  box-shadow: inset 0 2px 5px -2px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 10px 15px -2px rgba(0, 0, 0, 0.05);
 }
 
 .inputs .card-number {
@@ -60,7 +70,12 @@ h1 {
 .inputs .button {
   color: #eee;
   width: 290;
-  background: #008fff;
+  background: #76d1ff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #76d1ff 0%, #48adfd 8%, #078bf7 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #76d1ff 0%,#48adfd 8%,#078bf7 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #76d1ff 0%,#48adfd 8%,#078bf7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76d1ff', endColorstr='#078bf7',GradientType=0 ); /* IE6-9 */
+  border: solid #3276b3 1px;
   font-weight: bold;
   padding: 10px;
   box-shadow: none;
@@ -70,6 +85,7 @@ h1 {
   position: relative;
   padding: 5px 0 0 5px;
   right: 5px;
+  bottom: 5px;
   width: 305px;
   box-shadow: inset 0 2px 5px -2px rgba(0, 0, 0, 0.5);
 }
@@ -83,6 +99,6 @@ input:focus {
 
 #price {
   position: absolute;
-  left: 265px;
-  bottom: 150px;
+  left: 260px;
+  bottom: 10px;
 }

@@ -14,7 +14,7 @@
           <input class="name" type="text" placeholder="Name">
           <input class="small-input" type="text" placeholder="MM" onkeypress='validate(event)' maxlength="2">
           <input class="small-input" type="text" placeholder="YY" onkeypress='validate(event)' maxlength="2"><br>
-          <input class="card-number" type="text" placeholder="4213 1220 0229 3249" onkeypress='validate(event)' maxlength="16">
+          <input class="card-number" id="card-thingy" type="text" placeholder="4213 1220 0229 3249" onkeypress='numberBreaker()' maxlength="19">
           <input class="small-input" type="text" placeholder="CVC" onkeypress='validate(event)' maxlength="3"><br>
           <input class="button" type="submit" value="PURCHASE" onclick='message()'>
         </div>

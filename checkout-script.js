@@ -12,3 +12,11 @@ function validate(evt) {
 function message() {
   alert("Thank you!")
 }
+
+var arr = [];
+
+function numberBreaker(evt) {
+  document.getElementById('card-thingy').addEventListener('input', function (e) {
+    e.target.value = e.target.value.replace(/[^\d]/g, '').replace(/(.{4})/g, '$1 ').trim();
+  });
+}
