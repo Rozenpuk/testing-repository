@@ -102,3 +102,16 @@ input:focus {
   left: 260px;
   bottom: 10px;
 }
+
+.button:hover {
+  outline: none;
+  box-shadow: 0 0 10px rgb(143,177,215);
+}
+
+.button:active {
+  background: #0762f4; /* Old browsers */
+  background: -moz-linear-gradient(top,  #0762f4 0%, #078bf7 13%, #078bf7 82%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #0762f4 0%,#078bf7 13%,#078bf7 82%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #0762f4 0%,#078bf7 13%,#078bf7 82%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0762f4', endColorstr='#078bf7',GradientType=0 ); /* IE6-9 */
+}
