@@ -14,7 +14,7 @@
 
 .player-body {
   position: absolute;
-  background: white url(assets/bridge.jpg) center center;
+  background: white url("assets/bridge.jpg") center center;
   border-radius: 8px;
   width: 640px;
   height: 440px;
@@ -34,7 +34,7 @@
 
 .button {
   background: transparent;
-  position: absolute;;
+  position: absolute;
   outline: none;
   top: 50%;
   margin-right: -50%;
@@ -51,4 +51,14 @@
 
 #forwards {
   left: 75%;
+}
+
+.button:hover {
+  outline: none;
+  -webkit-filter: drop-shadow(6px 6px 20px rgba(155,188,215,0.9));
+}
+
+#play:hover {
+  outline: none;
+  -webkit-filter: drop-shadow(6px 6px 25px rgba(143,177,215,0.5));
 }
