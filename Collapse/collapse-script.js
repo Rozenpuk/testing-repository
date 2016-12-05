@@ -4,7 +4,6 @@ function myFunction() {
 
 $(window).on('click', function(event) {
   if ($(event.target).parents('.dropdown').length == 0) {
-    alert($(event.target).parents('.dropdown').length)
     if ($("#myDropdown").hasClass('show')) {
       $("#myDropdown").removeClass('show');
     }
