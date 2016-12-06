@@ -1,6 +1,10 @@
 function myFunction() {
-    $("#myDropdown").toggleClass("show");
+    // $("#myDropdown").toggleClass("show");
 }
+
+$('.dropbtn').click(function() {
+  $(this).next('.dropdown-content').slideToggle(500);
+});
 
 $(window).on('click', function(event) {
   if ($(event.target).parents('.dropdown').length == 0) {

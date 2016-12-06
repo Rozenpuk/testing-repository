@@ -41,8 +41,8 @@
 
 .dropdown-content {
     display: none;
-    position: relative;
-    margin-top: 75px;
+    position: absolute;
+    /*margin-top: 75px;*/
     margin-left: 50%;
     background-color: rgba(125,100,98,0.8);
     width: 66px;
@@ -52,6 +52,7 @@
     border: #8f7b79 solid 1px;
     /*box-sizing: border-box;*/
     transform: translate(-50%);
+    top: 75px;
 }
 
 .square-radio {
@@ -97,4 +98,4 @@
   transform: translate(-50%, -50%);
 }
 
-.show {display:block;}
+/*.show {display:block;}*/
