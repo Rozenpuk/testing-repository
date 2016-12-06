@@ -1,7 +1,3 @@
-function myFunction() {
-    // $("#myDropdown").toggleClass("show");
-}
-
 $('.dropbtn').click(function() {
   $(this).next('.dropdown-content').slideToggle(500);
 });
