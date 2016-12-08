@@ -1,0 +1,34 @@
+<DOCTYPE! html>
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Image-viewer</title>
+      <link href="iv-style.css" rel="stylesheet">
+      <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="../animate.css" rel="stylesheet">
+    </head>
+    <body>
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+           <div class="navbar-header">
+             <a class="navbar-brand" href="#">Image-viewer</a>
+		       </div>
+		       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		       </div>
+	      </div>
+      </nav>
+      <div>
+        <div id='block'>
+        <div id="screen" class="screen">
+          <button id='prev'onclick=prevImg()></button>
+          <button id='next'onclick=nextImg()></button>
+          <img id=caramba src="">
+        </div>
+        </div>
+        <div id="showcase"></div>
+      </div>
+      <script src="../jquery-3.1.1.js"></script>
+      <script src="../bootstrap/js/bootstrap.min.js"></script>
+      <script src="iv-script.js"></script>
+    </body>
+  </html>
